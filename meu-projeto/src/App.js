@@ -2,8 +2,9 @@ import './App.css';
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
 import Frase from './components/Frase'
-function App() {
+import List from './components/List'
 
+function App() {
   const nome  = "Maria"
 
   return (
@@ -18,7 +19,9 @@ function App() {
       nome="Rodrigo" 
       idade="28" 
       profissao="Programador" 
-      foto="https://via.placeholder.com/150"/>
+      foto="https://via.placeholder.com/150"
+      />
+      <List />
     </div>
   );
 }
