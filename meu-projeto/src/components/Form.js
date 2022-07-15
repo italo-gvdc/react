@@ -1,5 +1,4 @@
 function Form() {
-
     function cadastrarUsuario(e) {
         e.preventDefault()
         console.log("Cadastrou o usuario!")
@@ -12,6 +11,9 @@ function Form() {
             <Form onSubmit={cadastrarUsuario}>
                 <div>
                     <input type="text" placeholder="Digite o seu nome " />
+                </div>
+                <div>
+                    <input type="password" placeholder="Digite a sua senha" />
                 </div>
                 <div>
                     <input type="submit" value="Cadastrar"/>
