@@ -6,9 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Testando Eventos</h1>
-      <Evento/>
-      <Form />
+      <h1>Renderização convencional</h1>
     </div>
   );
 }
