@@ -1,12 +1,15 @@
+import { useState } from 'react';
 import './App.css';
-import Evento from './components/Eventos'
-import Form from './components/Form'
+import Condicional from './components/Condicional';
 
 function App() {
+  const [email, setEmail] = useState()
+  const[userEmail, setUserEmail] = useState()
 
   return (
     <div className="App">
       <h1>Renderização convencional</h1>
+      <Condicional />
     </div>
   );
 }
