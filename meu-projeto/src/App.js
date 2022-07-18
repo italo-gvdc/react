@@ -1,17 +1,15 @@
-import { useState } from 'react';
 import './App.css';
-import Condicional from './components/Condicional';
 
 function App() {
-  const [email, setEmail] = useState()
-  const[userEmail, setUserEmail] = useState()
+
+  const meusItens = ['React', 'Vue', 'Angular'] 
+
 
   return (
     <div className="App">
-      <h1>Renderização convencional</h1>
-      <Condicional />
+      <h1>Renderização de listas</h1>
     </div>
-  );
+  )
 }
 
 export default App;
