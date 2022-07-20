@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import Empresa from './pages/Empresa'
 import Contato from './pages/Contato'
 import Navbar from '.Layout/Navbar'
-import Navbar from '.Layout/Footer'
+import Navbar from '.Layout/Footers'
 
 
 function App() {
