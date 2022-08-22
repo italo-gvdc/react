@@ -7,8 +7,16 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": null,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "300000",
+          "description": "Faz isso aqui",
+          "id": "863009ac-7e21-49b2-bd79-38fee2170da1"
+        }
+     
+      ],
       "id": 6
     },
     {
@@ -21,11 +29,6 @@
       "cost": 0,
       "services": [],
       "id": 7
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 8
     }
   ],
   "categories": [
