@@ -14,8 +14,13 @@
           "cost": "300000",
           "description": "Faz isso aqui",
           "id": "863009ac-7e21-49b2-bd79-38fee2170da1"
+        },
+        {
+          "name": "Meu novo serviço",
+          "cost": "3500",
+          "description": "Faz isso aqui",
+          "id": "655aea20-8466-4c72-a147-8e62999ff929"
         }
-     
       ],
       "id": 6
     },
